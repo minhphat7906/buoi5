@@ -1,0 +1,14 @@
+.first{
+    background-color: lightblue;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media only screen and (max-width:800px) {
+    .second{
+        display: flex;
+        flex-direction: column;
+    
+}}
