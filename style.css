@@ -142,7 +142,6 @@ p{
 .hv2:hover img{
     opacity: 0.5;
     transition-timing-function: ease-in-out;
-
 }
 .hv2:hover .an{
     opacity: 1;
