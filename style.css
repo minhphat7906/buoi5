@@ -42,7 +42,7 @@ p{
         left: 95%;
     }
     75% {
-        top: 900px ;
+        top: 900px;
         left: 0;
     }
     100% {
@@ -61,8 +61,8 @@ p{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: absolute;
-    top: 450px;
-    left: 1000px;
+    top: 50%;
+    left: 50%;
 
 }
 @keyframes vidu2 {
@@ -77,9 +77,10 @@ p{
 .hv img{
     opacity: 0.6;
     position: relative;
+    right: 30px;
     width: 550px;
     height: 350px;
-    transition: opacity ease-in-out 0.5s;   
+    transition: ease-in-out 0.5s;   
     
 }
 .ct{
@@ -89,17 +90,22 @@ p{
     padding: 40px;
 }
 .ct .cthidden{
+    font-size: 15px;
     display: none;
-    transition: ease-in-out 0.5s;
 }
 .hv:hover img{
     opacity: 1;
-    transform: translate(-30px);
-    transition: ease-in-out 0.5s;
+    transform: translate(30px);
+    transition: ease-out 0.2s;
 
+}
+.hv:hover .ct{
+    transform: translate(0,-15px);
+    transition: ease-out 0.2s;
 }
 .hv:hover .cthidden{
     display: block;
+
 }
 .hv2{
     width: 480px;
